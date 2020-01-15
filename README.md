@@ -12,7 +12,7 @@ These projects are modified versions of sample 80 from [BotBuilder-Samples](http
 
 - Node
 
-# ![](./media/node.png)
+# ![](./media/javascript.png)
 
 - [setup](https://github.com/microsoft/BotBuilder-Samples/tree/master/samples/javascript_nodejs/80.skills-simple-bot-to-bot)
 
