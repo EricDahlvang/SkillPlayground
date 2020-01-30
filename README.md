@@ -22,4 +22,4 @@ These projects are modified versions of sample 80 from [BotBuilder-Samples](http
 
 
 - V3
-    - Echo bot based on Skills Token validation changes in https://github.com/microsoft/BotBuilder-V3/tree/eric/skillsDraft1
+    - Echo bot based on Skills Token validation changes in https://github.com/microsoft/BotBuilder-V3/tree/eric/skillsDraft2
