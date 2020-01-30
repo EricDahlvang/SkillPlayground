@@ -115,7 +115,7 @@ class RootBot extends ActivityHandler {
         ];
 
         const card = CardFactory.heroCard('Javascript Skills Bot Options', undefined,
-            buttons, { text: 'You can upload an image or select one of the following choices.' });
+            buttons, { text: 'Click one of the buttons below to initiate that echo skill.' });
 
         return card;
     }
