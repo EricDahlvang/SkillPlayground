@@ -1,4 +1,4 @@
-﻿using Microsoft.Bot.Connector.Authentication;
+﻿using Microsoft.Bot.Connector.SkillAuthentication;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,7 +6,7 @@ using System.Security.Claims;
 using System.Threading.Tasks;
 using System.Web;
 
-namespace EchoBot.Authentication
+namespace EchoBotV3.Authentication
 {
     /// <summary>
     /// Sample claims validator that loads an allowed list from configuration if present

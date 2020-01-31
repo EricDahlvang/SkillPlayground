@@ -1,13 +1,9 @@
-﻿using EchoBot.Authentication;
+﻿using System;
+using System.Threading.Tasks;
 using Microsoft.Bot.Builder.Dialogs;
 using Microsoft.Bot.Connector;
-using System;
-using System.Net;
-using System.Net.Http;
-using System.Threading.Tasks;
-using System.Web.Http;
 
-namespace EchoBot.Controllers
+namespace EchoBotV3.Dialogs
 {
     [Serializable]
     public class RootDialog : IDialog<object>
@@ -30,7 +26,7 @@ namespace EchoBot.Controllers
             if (activity.Text.Contains("end") || activity.Text.Contains("stop"))
             {
                 // Send End of conversation at the end.
-                await context.PostAsync($"ending conversation from the skill...");
+                await context.PostAsync($"Ending conversation from the skill...");
                 var endOfConversation = activity.CreateReply();
                 endOfConversation.Type = ActivityTypes.EndOfConversation;
                 endOfConversation.Code = EndOfConversationCodes.CompletedSuccessfully;
@@ -43,21 +39,6 @@ namespace EchoBot.Controllers
             }
 
             context.Wait(MessageReceivedAsync);
-        }
-    }
-
-    [SkillAuthentication]
-    //[SkillAuthentication(AuthenticationConfigurationProviderType=typeof(SkillAuthenticationConfiguration))]
-    public class MessagesController : ApiController
-    {
-
-        public async Task<HttpResponseMessage> Post([FromBody]Activity activity)
-        {
-            if (activity.Type == ActivityTypes.Message)
-            {
-                await Conversation.SendAsync(activity, () => new RootDialog());
-            }
-            return Request.CreateResponse(HttpStatusCode.OK);
         }
     }
 }

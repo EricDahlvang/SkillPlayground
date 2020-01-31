@@ -5,13 +5,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
 
-namespace EchoBot
+namespace EchoBotV3
 {
     public static class WebApiConfig
     {
         public static void Register(HttpConfiguration config)
         {
-            // Web API configuration and services
             // Json settings
             config.Formatters.JsonFormatter.SerializerSettings.NullValueHandling = NullValueHandling.Ignore;
             config.Formatters.JsonFormatter.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver();
@@ -22,6 +21,8 @@ namespace EchoBot
                 Formatting = Newtonsoft.Json.Formatting.Indented,
                 NullValueHandling = NullValueHandling.Ignore,
             };
+
+            // Web API configuration and services
 
             // Web API routes
             config.MapHttpAttributeRoutes();
