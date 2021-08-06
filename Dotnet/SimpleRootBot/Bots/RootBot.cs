@@ -58,7 +58,7 @@ namespace Microsoft.BotBuilderSamples.SimpleRootBot.Bots
                 }
                 heroCard = new HeroCard
                 {
-                    Title = "Skills Options",
+                    Title = "DotNet Skill Bot Options",
                     Text = "Click one of the buttons below to initiate that skill.",
                     Buttons = buttons
                 };

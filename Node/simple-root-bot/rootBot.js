@@ -33,7 +33,7 @@ class RootBot extends ActivityHandler {
             } else {
 
                 const text = context.activity.text.toLowerCase();
-                if (text.includes('dotnet') || text.includes('javascript') || text.includes('python')) {
+                if (text.includes('051a025a-e2d3-42af-a55b-68f5c9cf394a') || text.includes('java') || text.includes('pva') || text.includes('dotnet') || text.includes('javascript') || text.includes('python')) {
                     activeSkill = this.skillsConfig.skills[text];
                     await context.sendActivity('Got it, connecting you to the skill...');
 
@@ -108,16 +108,16 @@ class RootBot extends ActivityHandler {
 
     getOptionsCard() {
         const buttons = [
-            { type: ActionTypes.ImBack, title: 'Dotnet Skill', value: 'dotnet' },
-            { type: ActionTypes.ImBack, title: 'Javascript Skill', value: 'javascript' },
-            { type: ActionTypes.ImBack, title: 'Python Skill', value: 'python' },
-            { type: ActionTypes.ImBack, title: 'Dotnet V3 Skill', value: 'dotnetv3' }
+            { type: ActionTypes.ImBack, title: 'PVA', value: 'pva' },
+            { type: ActionTypes.ImBack, title: 'Python', value: 'python' },
+            { type: ActionTypes.ImBack, title: 'Java', value: 'java' },
+            { type: ActionTypes.ImBack, title: 'Dotnet', value: 'dotnet' },
+            { type: ActionTypes.ImBack, title: 'Javascript', value: 'javascript' },
+            { type: ActionTypes.ImBack, title: 'Dotnet V3', value: 'dotnetv3' }
         ];
 
-        const card = CardFactory.heroCard('Javascript Skills Bot Options', undefined,
+        return CardFactory.heroCard('Javascript Skills Bot Options', undefined,
             buttons, { text: 'Click one of the buttons below to initiate that echo skill.' });
-
-        return card;
     }
 
     async sendToSkill(context, targetSkill) {

@@ -112,23 +112,29 @@ class RootBot(ActivityHandler):
 
     def _get_hero_card(self) -> Attachment:
         return HeroCard(
-            title="Python Skills Bot Options",
-            text="Click one of the buttons below to initiate that echo skill.",
-            buttons=[
+            title="Python Skill Bot Options",
+            text="Click one of the buttons below to initiate that skill.",
+            buttons=[                
+		CardAction(
+                    type="imBack", title="PVA", text="pva", value="pva"
+                ),
+		CardAction(
+                    type="imBack", title="Python", text="python", value="python"
+                ),
+		CardAction(
+                    type="imBack", title="Java", text="java", value="java"
+                ),
                 CardAction(
-                    type="imBack", title="Dotnet Skill", text="dotnet", value="dotnet"
+                    type="imBack", title="Dotnet", text="dotnet", value="dotnet"
                 ),
                 CardAction(
                     type="imBack",
-                    title="Javascript Skill",
+                    title="Javascript",
                     text="javascript",
                     value="javascript",
                 ),
                 CardAction(
-                    type="imBack", title="Python Skill", text="python", value="python"
-                ),
-                CardAction(
-                    type="imBack", title="Dotnet V3 Skill", text="dotnetv3", value="dotnetv3"
+                    type="imBack", title="Dotnet V3", text="dotnetv3", value="dotnetv3"
                 ),
             ],
         )
