@@ -1,0 +1,55 @@
+{
+  "skills": [
+    {
+      "appIdEnvironmentVariableSchemaName": "new_skill_94c46bfd0b8e4da6bcc4802d20e29189_python_appid",
+      "appEndpointEnvironmentVariableSchemaName": "new_skill_94c46bfd0b8e4da6bcc4802d20e29189_python_appendpoint",
+      "actionCount": 0,
+      "manifest": {
+        "$schema": "https://schemas.botframework.com/schemas/skills/v2.2/skill-manifest.json",
+        "$id": "python",
+        "name": "Python Skill Bot",
+        "version": "1.0",
+        "description": "This is a sample skill built using python and is useful for echoing back what was sent.",
+        "publisherName": "Microsoft",
+        "privacyUrl": "https://microsoft.com/privacy",
+        "copyright": "Copyright (c) Microsoft Corporation. All rights reserved.",
+        "license": "",
+        "iconUrl": "https://myskill.contoso.com/icon.png",
+        "tags": {
+          "$id": "2",
+          "$values": [
+            "sample",
+            "python"
+          ]
+        },
+        "endpoints": {
+          "$id": "3",
+          "$values": [
+            {
+              "$id": "4",
+              "name": "python",
+              "protocol": "BotFrameworkV3",
+              "description": "Default endpoint for the skill",
+              "endpointUrl": "https://skillschildpython2.azurewebsites.net/api/messages",
+              "msAppId": "988daa64-932a-4606-95ad-3804cd67e3e2"
+            }
+          ]
+        },
+        "activities": {
+          "$id": "5",
+          "message": {
+            "type": "message",
+            "$id": "6",
+            "description": "A message activity containing the utterance that the skill will echo back to the user"
+          }
+        }
+      },
+      "id": "new_skill_94c46bfd0b8e4da6bcc4802d20e29189",
+      "displayName": "Python Skill Bot",
+      "description": "This is a sample skill built using python and is useful for echoing back what was sent.",
+      "createdTime": "2021-08-25T16:50:20.7970486Z",
+      "updatedTime": "2021-08-25T16:50:20.7970486Z"
+    }
+  ],
+  "createdUtc": "0001-01-01T00:00:00Z"
+}

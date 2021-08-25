@@ -1,0 +1,11 @@
+<botcomponent schemaname="new_topic_cca5debdb0384105b7adbb226c044e8c.en.lg">
+  <componenttype>7</componenttype>
+  <iscustomizable>1</iscustomizable>
+  <language>1033</language>
+  <name>PVA (en.lg)</name>
+  <parentbotcomponentid>
+    <schemaname>new_topic_cca5debdb0384105b7adbb226c044e8c</schemaname>
+  </parentbotcomponentid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

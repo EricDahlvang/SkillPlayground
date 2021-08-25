@@ -1,0 +1,369 @@
+{
+  "intents": [
+    {
+      "dialogId": "new_topic_cca5debdb0384105b7adbb226c044e8c",
+      "isTriggeringEnabled": true,
+      "id": "new_topic_cca5debdb0384105b7adbb226c044e8c",
+      "displayName": "PVA",
+      "description": "Response for when this PVA bot is called as a skill",
+      "createdTime": "2021-08-06T04:35:39.9536358Z",
+      "updatedTime": "2021-08-25T17:07:02.4921078Z",
+      "createdUserId": "c87bdf38-be54-466a-bd67-4029da348cc4",
+      "updatedUserId": "c87bdf38-be54-466a-bd67-4029da348cc4"
+    }
+  ],
+  "namedEntities": [
+    {
+      "id": "e025b925-60cd-4468-9949-f6c47e51ad52"
+    },
+    {
+      "id": "1de7f377-47df-40e3-a9d6-f62079217b59"
+    },
+    {
+      "id": "825734ed-ae97-4656-bddd-e257a62f7c7b"
+    },
+    {
+      "id": "8ededd1e-04cd-416b-b997-f055d4d062c7"
+    },
+    {
+      "id": "868b6b37-2b59-4ff7-b955-72bfe16e7d35"
+    },
+    {
+      "id": "972de2c1-759b-4b7d-b4dd-a08b7968c551"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "2a91c6d6-0c57-4f70-8b65-19810117e816",
+      "messageNodes": [
+        {
+          "botMessageId": "9a5e7867-9946-49d2-a259-c81a3d5453ac",
+          "nodeType": "BotMessageNode",
+          "id": "2a91c6d6-0c57-4f70-8b65-19810117e816",
+          "defaultTargetNodeId": "9c514914-85b6-48e7-a0ec-b5271901ba24"
+        }
+      ],
+      "actionNodes": [
+        {
+          "contextVariableId": "5f7f5678-b986-43af-9580-ffb1652b6980",
+          "nodeType": "ActionNode",
+          "id": "37990cb7-36fa-45cd-abb1-1d879eded683",
+          "defaultTargetNodeId": "9c514914-85b6-48e7-a0ec-b5271901ba24"
+        },
+        {
+          "contextVariableId": "414f8124-630d-4e9d-8683-b390fd4ad172",
+          "nodeType": "ActionNode",
+          "id": "5d564210-d7b8-441b-8dcd-243d973428ac",
+          "defaultTargetNodeId": "9c514914-85b6-48e7-a0ec-b5271901ba24"
+        },
+        {
+          "contextVariableId": "fe342fa1-70ba-4fa2-b37a-3ca84bf1a85d",
+          "nodeType": "ActionNode",
+          "id": "503c8f1d-4505-46ba-9bcd-8103e9366aff",
+          "defaultTargetNodeId": "9c514914-85b6-48e7-a0ec-b5271901ba24"
+        },
+        {
+          "contextVariableId": "664796a3-a122-4ac8-ad99-6a352a7cd943",
+          "nodeType": "ActionNode",
+          "id": "71d31cd0-dc1a-49b6-895b-15622b12812a",
+          "defaultTargetNodeId": "9c514914-85b6-48e7-a0ec-b5271901ba24"
+        }
+      ],
+      "dialogChangeNodes": [
+        {
+          "targetDialogId": "new_topic_ea55017ba8a64ad48b3947520252a8de_f56d1a3e522740c78f9fac0939332dbd_goodbye",
+          "nodeType": "DialogChangeNode",
+          "id": "0785b5c4-4e1b-4f45-8a67-d749db13189a"
+        }
+      ],
+      "questionNodes": [
+        {
+          "contextVariableId": "d9199c85-9b62-46fb-8d2f-f478ba8fbd53",
+          "nodeType": "QuestionNode",
+          "id": "9c514914-85b6-48e7-a0ec-b5271901ba24",
+          "routes": [
+            {
+              "expression": "@equals(parameters('d9199c85-9b62-46fb-8d2f-f478ba8fbd53'), 'e025b925-60cd-4468-9949-f6c47e51ad52')",
+              "targetNodeId": "0785b5c4-4e1b-4f45-8a67-d749db13189a"
+            },
+            {
+              "expression": "@equals(parameters('d9199c85-9b62-46fb-8d2f-f478ba8fbd53'), '1de7f377-47df-40e3-a9d6-f62079217b59')",
+              "targetNodeId": "4d072539-6c0d-4554-b29d-b402dec3a323"
+            }
+          ],
+          "defaultTargetNodeId": "9c514914-85b6-48e7-a0ec-b5271901ba24"
+        },
+        {
+          "contextVariableId": "e5caf00e-4316-4886-9c33-0a1283455bca",
+          "nodeType": "QuestionNode",
+          "id": "4d072539-6c0d-4554-b29d-b402dec3a323",
+          "routes": [
+            {
+              "expression": "@equals(parameters('e5caf00e-4316-4886-9c33-0a1283455bca'), '825734ed-ae97-4656-bddd-e257a62f7c7b')",
+              "targetNodeId": "37990cb7-36fa-45cd-abb1-1d879eded683"
+            },
+            {
+              "expression": "@equals(parameters('e5caf00e-4316-4886-9c33-0a1283455bca'), '8ededd1e-04cd-416b-b997-f055d4d062c7')",
+              "targetNodeId": "5d564210-d7b8-441b-8dcd-243d973428ac"
+            },
+            {
+              "expression": "@equals(parameters('e5caf00e-4316-4886-9c33-0a1283455bca'), '868b6b37-2b59-4ff7-b955-72bfe16e7d35')",
+              "targetNodeId": "503c8f1d-4505-46ba-9bcd-8103e9366aff"
+            },
+            {
+              "expression": "@equals(parameters('e5caf00e-4316-4886-9c33-0a1283455bca'), '972de2c1-759b-4b7d-b4dd-a08b7968c551')",
+              "targetNodeId": "71d31cd0-dc1a-49b6-895b-15622b12812a"
+            }
+          ],
+          "defaultTargetNodeId": "4d072539-6c0d-4554-b29d-b402dec3a323"
+        }
+      ],
+      "id": "new_topic_cca5debdb0384105b7adbb226c044e8c",
+      "displayName": "Dialog for PVA",
+      "createdTime": "2021-08-05T19:27:16.7711881Z",
+      "updatedTime": "2021-08-25T17:07:02.4921078Z",
+      "createdUserId": "c87bdf38-be54-466a-bd67-4029da348cc4",
+      "updatedUserId": "c87bdf38-be54-466a-bd67-4029da348cc4"
+    }
+  ],
+  "botMessages": [
+    {
+      "id": "2f5c8053-4e4d-45bd-947b-b6dcd547a332"
+    },
+    {
+      "id": "e81976f8-b905-4608-bb3d-880987cf5021"
+    },
+    {
+      "id": "9a5e7867-9946-49d2-a259-c81a3d5453ac"
+    }
+  ],
+  "actionDefinitions": [
+    {
+      "timeoutInSeconds": -1,
+      "retryCount": -1,
+      "method": 0,
+      "actionType": "None",
+      "skillActionMetadata": {
+        "activityType": "message",
+        "skillId": "new_skill_005118ad65b4480ab39e85ce8d914dca",
+        "actionId": "message",
+        "title": "A message activity containing the utterance that the skill will echo back to the user",
+        "description": "Java Skill Bot v1.1",
+        "isManaged": false,
+        "isCustomizable": true
+      },
+      "id": "ce1a37a6-0f7c-4acf-86e0-39d92af9c53b",
+      "displayName": "A message activity containing the utterance that the skill will echo back to the user",
+      "description": "Java Skill Bot v1.1",
+      "createdTime": "2021-08-25T16:53:03.017Z",
+      "updatedTime": "2021-08-25T16:53:03.017Z"
+    },
+    {
+      "timeoutInSeconds": -1,
+      "retryCount": -1,
+      "method": 0,
+      "actionType": "None",
+      "skillActionMetadata": {
+        "activityType": "message",
+        "skillId": "new_skill_94c46bfd0b8e4da6bcc4802d20e29189",
+        "actionId": "message",
+        "title": "A message activity containing the utterance that the skill will echo back to the user",
+        "description": "Python Skill Bot v1.0",
+        "isManaged": false,
+        "isCustomizable": true
+      },
+      "id": "04b412cc-79dc-458c-8ba4-a929f22f94f6",
+      "displayName": "A message activity containing the utterance that the skill will echo back to the user",
+      "description": "Python Skill Bot v1.0",
+      "createdTime": "2021-08-25T16:54:13.348Z",
+      "updatedTime": "2021-08-25T16:54:13.348Z"
+    },
+    {
+      "timeoutInSeconds": -1,
+      "retryCount": -1,
+      "method": 0,
+      "actionType": "None",
+      "skillActionMetadata": {
+        "activityType": "message",
+        "skillId": "new_skill_f00df4eada83482698e49c7cdea41e2a",
+        "actionId": "message",
+        "title": "A message activity containing the utterance that the skill will echo back to the user",
+        "description": "Javascript Skill Bot v1.1",
+        "isManaged": false,
+        "isCustomizable": true
+      },
+      "id": "47f084f1-5f3d-4e20-afb9-fe99b8cd2c3a",
+      "displayName": "A message activity containing the utterance that the skill will echo back to the user",
+      "description": "Javascript Skill Bot v1.1",
+      "createdTime": "2021-08-25T16:55:27.653Z",
+      "updatedTime": "2021-08-25T16:55:27.653Z"
+    },
+    {
+      "timeoutInSeconds": -1,
+      "retryCount": -1,
+      "method": 0,
+      "actionType": "None",
+      "skillActionMetadata": {
+        "activityType": "message",
+        "skillId": "new_skill_3b0a5c3ad02e4e56942332fa9e44560a",
+        "actionId": "message",
+        "title": "A message activity containing the utterance that the skill will echo back to the user",
+        "description": "Dotnet Skill Bot v1.1",
+        "isManaged": false,
+        "isCustomizable": true
+      },
+      "id": "75a294c7-5557-4a10-b3f7-8af25fae3df9",
+      "displayName": "A message activity containing the utterance that the skill will echo back to the user",
+      "description": "Dotnet Skill Bot v1.1",
+      "createdTime": "2021-08-25T16:55:46.15Z",
+      "updatedTime": "2021-08-25T16:55:46.15Z"
+    }
+  ],
+  "contextVariables": [
+    {
+      "systemType": "String",
+      "initializerType": "UserQuestion",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": true,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "namedEntityOptions": [
+        "e025b925-60cd-4468-9949-f6c47e51ad52",
+        "1de7f377-47df-40e3-a9d6-f62079217b59"
+      ],
+      "messages": {
+        "GetValue": [
+          "2f5c8053-4e4d-45bd-947b-b6dcd547a332"
+        ]
+      },
+      "isGlobal": false,
+      "id": "d9199c85-9b62-46fb-8d2f-f478ba8fbd53",
+      "displayName": "Var",
+      "createdTime": "2021-08-05T19:27:49.512Z",
+      "updatedTime": "2021-08-25T17:07:02.4921078Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "c87bdf38-be54-466a-bd67-4029da348cc4"
+    },
+    {
+      "systemType": "String",
+      "initializerType": "UserQuestion",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": true,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "namedEntityOptions": [
+        "825734ed-ae97-4656-bddd-e257a62f7c7b",
+        "8ededd1e-04cd-416b-b997-f055d4d062c7",
+        "868b6b37-2b59-4ff7-b955-72bfe16e7d35",
+        "972de2c1-759b-4b7d-b4dd-a08b7968c551"
+      ],
+      "messages": {
+        "GetValue": [
+          "e81976f8-b905-4608-bb3d-880987cf5021"
+        ]
+      },
+      "isGlobal": false,
+      "id": "e5caf00e-4316-4886-9c33-0a1283455bca",
+      "displayName": "Var1",
+      "createdTime": "2021-08-25T16:51:46.653Z",
+      "updatedTime": "2021-08-25T17:07:02.4921078Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "c87bdf38-be54-466a-bd67-4029da348cc4"
+    },
+    {
+      "customTypeId": "2baa6967-2ca2-4812-966e-3e2af6d18c66",
+      "initializerType": "Action",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": false,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "actionId": "ce1a37a6-0f7c-4acf-86e0-39d92af9c53b",
+      "isGlobal": false,
+      "id": "5f7f5678-b986-43af-9580-ffb1652b6980",
+      "displayName": "",
+      "createdTime": "2021-08-25T16:53:03.017Z",
+      "updatedTime": "2021-08-25T17:07:02.4921078Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "c87bdf38-be54-466a-bd67-4029da348cc4"
+    },
+    {
+      "customTypeId": "7dad9970-8795-4f53-85e3-0830cb3bcdd2",
+      "initializerType": "Action",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": false,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "actionId": "04b412cc-79dc-458c-8ba4-a929f22f94f6",
+      "isGlobal": false,
+      "id": "414f8124-630d-4e9d-8683-b390fd4ad172",
+      "displayName": "",
+      "createdTime": "2021-08-25T16:54:13.348Z",
+      "updatedTime": "2021-08-25T17:07:02.4921078Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "c87bdf38-be54-466a-bd67-4029da348cc4"
+    },
+    {
+      "customTypeId": "540a0f75-d3e6-4ecf-9b81-7b9ba9c0f1b4",
+      "initializerType": "Action",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": false,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "actionId": "47f084f1-5f3d-4e20-afb9-fe99b8cd2c3a",
+      "isGlobal": false,
+      "id": "fe342fa1-70ba-4fa2-b37a-3ca84bf1a85d",
+      "displayName": "",
+      "createdTime": "2021-08-25T16:55:27.653Z",
+      "updatedTime": "2021-08-25T17:07:02.4921078Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "c87bdf38-be54-466a-bd67-4029da348cc4"
+    },
+    {
+      "customTypeId": "7f9995d9-4400-4fc6-ad57-6078c181139a",
+      "initializerType": "Action",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": false,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "actionId": "75a294c7-5557-4a10-b3f7-8af25fae3df9",
+      "isGlobal": false,
+      "id": "664796a3-a122-4ac8-ad99-6a352a7cd943",
+      "displayName": "",
+      "createdTime": "2021-08-25T16:55:46.15Z",
+      "updatedTime": "2021-08-25T17:07:02.4921078Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "c87bdf38-be54-466a-bd67-4029da348cc4"
+    }
+  ],
+  "createdUtc": "0001-01-01T00:00:00Z",
+  "jsonTypes": [
+    {
+      "customTypeSchema": "Json",
+      "id": "2baa6967-2ca2-4812-966e-3e2af6d18c66",
+      "displayName": "Response Json Type for Skill Action - A message activity containing the utterance that the skill will echo back to the user",
+      "createdTime": "2021-08-25T16:53:03.017Z",
+      "updatedTime": "2021-08-25T16:53:03.017Z"
+    },
+    {
+      "customTypeSchema": "Json",
+      "id": "7dad9970-8795-4f53-85e3-0830cb3bcdd2",
+      "displayName": "Response Json Type for Skill Action - A message activity containing the utterance that the skill will echo back to the user",
+      "createdTime": "2021-08-25T16:54:13.348Z",
+      "updatedTime": "2021-08-25T16:54:13.348Z"
+    },
+    {
+      "customTypeSchema": "Json",
+      "id": "540a0f75-d3e6-4ecf-9b81-7b9ba9c0f1b4",
+      "displayName": "Response Json Type for Skill Action - A message activity containing the utterance that the skill will echo back to the user",
+      "createdTime": "2021-08-25T16:55:27.653Z",
+      "updatedTime": "2021-08-25T16:55:27.653Z"
+    },
+    {
+      "customTypeSchema": "Json",
+      "id": "7f9995d9-4400-4fc6-ad57-6078c181139a",
+      "displayName": "Response Json Type for Skill Action - A message activity containing the utterance that the skill will echo back to the user",
+      "createdTime": "2021-08-25T16:55:46.15Z",
+      "updatedTime": "2021-08-25T16:55:46.15Z"
+    }
+  ]
+}

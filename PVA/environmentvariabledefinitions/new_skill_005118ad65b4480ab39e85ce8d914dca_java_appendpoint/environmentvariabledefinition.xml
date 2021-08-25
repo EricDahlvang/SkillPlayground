@@ -1,0 +1,12 @@
+<environmentvariabledefinition schemaname="new_skill_005118ad65b4480ab39e85ce8d914dca_java_appendpoint">
+  <description default="This is a sample skill built using java and is useful for echoing back what was sent.">
+    <label description="This is a sample skill built using java and is useful for echoing back what was sent." languagecode="1033" />
+  </description>
+  <displayname default="[Eric: PVA as a Skill] Java Skill Bot">
+    <label description="[Eric: PVA as a Skill] Java Skill Bot" languagecode="1033" />
+  </displayname>
+  <introducedversion>1.0.0.0</introducedversion>
+  <iscustomizable>1</iscustomizable>
+  <isrequired>0</isrequired>
+  <type>100000000</type>
+</environmentvariabledefinition>

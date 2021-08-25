@@ -1,0 +1,8 @@
+<botcomponent schemaname="new_skill_94c46bfd0b8e4da6bcc4802d20e29189">
+  <componenttype>1</componenttype>
+  <description>This is a sample skill built using python and is useful for echoing back what was sent.</description>
+  <iscustomizable>1</iscustomizable>
+  <name>Python Skill Bot</name>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

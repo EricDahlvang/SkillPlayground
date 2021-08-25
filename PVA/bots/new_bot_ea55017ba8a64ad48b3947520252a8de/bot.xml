@@ -1,0 +1,8 @@
+<bot schemaname="new_bot_ea55017ba8a64ad48b3947520252a8de">
+  <authenticationmode>1</authenticationmode>
+  <authenticationtrigger>0</authenticationtrigger>
+  <iscustomizable>1</iscustomizable>
+  <language>1033</language>
+  <name>Eric: PVA as a Skill</name>
+  <timezoneruleversionnumber>4</timezoneruleversionnumber>
+</bot>

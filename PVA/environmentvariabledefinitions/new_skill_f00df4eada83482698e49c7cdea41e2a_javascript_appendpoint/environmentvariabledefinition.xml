@@ -1,0 +1,12 @@
+<environmentvariabledefinition schemaname="new_skill_f00df4eada83482698e49c7cdea41e2a_javascript_appendpoint">
+  <description default="This is a sample skill built using javascript and is useful for echoing back what was sent.">
+    <label description="This is a sample skill built using javascript and is useful for echoing back what was sent." languagecode="1033" />
+  </description>
+  <displayname default="[Eric: PVA as a Skill] Javascript Skill Bot">
+    <label description="[Eric: PVA as a Skill] Javascript Skill Bot" languagecode="1033" />
+  </displayname>
+  <introducedversion>1.0.0.0</introducedversion>
+  <iscustomizable>1</iscustomizable>
+  <isrequired>0</isrequired>
+  <type>100000000</type>
+</environmentvariabledefinition>

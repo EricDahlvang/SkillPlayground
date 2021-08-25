@@ -1,0 +1,12 @@
+<environmentvariabledefinition schemaname="new_skill_94c46bfd0b8e4da6bcc4802d20e29189_python_appid">
+  <description default="This is a sample skill built using python and is useful for echoing back what was sent.">
+    <label description="This is a sample skill built using python and is useful for echoing back what was sent." languagecode="1033" />
+  </description>
+  <displayname default="[Eric: PVA as a Skill] Python Skill Bot">
+    <label description="[Eric: PVA as a Skill] Python Skill Bot" languagecode="1033" />
+  </displayname>
+  <introducedversion>1.0.0.0</introducedversion>
+  <iscustomizable>1</iscustomizable>
+  <isrequired>0</isrequired>
+  <type>100000000</type>
+</environmentvariabledefinition>

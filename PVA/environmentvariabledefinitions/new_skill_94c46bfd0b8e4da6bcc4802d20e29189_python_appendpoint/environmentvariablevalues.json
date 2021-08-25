@@ -1,0 +1,9 @@
+{
+  "environmentvariablevalues": {
+    "environmentvariablevalue": {
+      "@environmentvariablevalueid": "3c642f88-c405-ec11-b6e6-000d3a9a6d70",
+      "iscustomizable": "1",
+      "value": "https://skillschildpython2.azurewebsites.net/api/messages"
+    }
+  }
+}

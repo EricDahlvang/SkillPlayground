@@ -1,0 +1,42 @@
+<ImportExportXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Entities></Entities>
+  <Roles></Roles>
+  <Workflows></Workflows>
+  <FieldSecurityProfiles></FieldSecurityProfiles>
+  <Templates />
+  <EntityMaps />
+  <EntityRelationships />
+  <OrganizationSettings />
+  <optionsets />
+  <CustomControls />
+  <EntityDataProviders />
+  <botcomponent_environmentvariabledefinitionset>
+    <botcomponent_environmentvariabledefinition botcomponentid.schemaname="new_skill_005118ad65b4480ab39e85ce8d914dca" environmentvariabledefinitionid.schemaname="new_skill_005118ad65b4480ab39e85ce8d914dca_java_appendpoint">
+      <iscustomizable>1</iscustomizable>
+    </botcomponent_environmentvariabledefinition>
+    <botcomponent_environmentvariabledefinition botcomponentid.schemaname="new_skill_005118ad65b4480ab39e85ce8d914dca" environmentvariabledefinitionid.schemaname="new_skill_005118ad65b4480ab39e85ce8d914dca_java_appid">
+      <iscustomizable>1</iscustomizable>
+    </botcomponent_environmentvariabledefinition>
+    <botcomponent_environmentvariabledefinition botcomponentid.schemaname="new_skill_3b0a5c3ad02e4e56942332fa9e44560a" environmentvariabledefinitionid.schemaname="new_skill_3b0a5c3ad02e4e56942332fa9e44560a_dotnet_appendpoint">
+      <iscustomizable>1</iscustomizable>
+    </botcomponent_environmentvariabledefinition>
+    <botcomponent_environmentvariabledefinition botcomponentid.schemaname="new_skill_3b0a5c3ad02e4e56942332fa9e44560a" environmentvariabledefinitionid.schemaname="new_skill_3b0a5c3ad02e4e56942332fa9e44560a_dotnet_appid">
+      <iscustomizable>1</iscustomizable>
+    </botcomponent_environmentvariabledefinition>
+    <botcomponent_environmentvariabledefinition botcomponentid.schemaname="new_skill_94c46bfd0b8e4da6bcc4802d20e29189" environmentvariabledefinitionid.schemaname="new_skill_94c46bfd0b8e4da6bcc4802d20e29189_python_appendpoint">
+      <iscustomizable>1</iscustomizable>
+    </botcomponent_environmentvariabledefinition>
+    <botcomponent_environmentvariabledefinition botcomponentid.schemaname="new_skill_94c46bfd0b8e4da6bcc4802d20e29189" environmentvariabledefinitionid.schemaname="new_skill_94c46bfd0b8e4da6bcc4802d20e29189_python_appid">
+      <iscustomizable>1</iscustomizable>
+    </botcomponent_environmentvariabledefinition>
+    <botcomponent_environmentvariabledefinition botcomponentid.schemaname="new_skill_f00df4eada83482698e49c7cdea41e2a" environmentvariabledefinitionid.schemaname="new_skill_f00df4eada83482698e49c7cdea41e2a_javascript_appendpoint">
+      <iscustomizable>1</iscustomizable>
+    </botcomponent_environmentvariabledefinition>
+    <botcomponent_environmentvariabledefinition botcomponentid.schemaname="new_skill_f00df4eada83482698e49c7cdea41e2a" environmentvariabledefinitionid.schemaname="new_skill_f00df4eada83482698e49c7cdea41e2a_javascript_appid">
+      <iscustomizable>1</iscustomizable>
+    </botcomponent_environmentvariabledefinition>
+  </botcomponent_environmentvariabledefinitionset>
+  <Languages>
+    <Language>1033</Language>
+  </Languages>
+</ImportExportXml>

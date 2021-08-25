@@ -1,0 +1,12 @@
+<environmentvariabledefinition schemaname="new_skill_3b0a5c3ad02e4e56942332fa9e44560a_dotnet_appid">
+  <description default="This is a sample skill built using dotnet and is useful for echoing back what was sent.">
+    <label description="This is a sample skill built using dotnet and is useful for echoing back what was sent." languagecode="1033" />
+  </description>
+  <displayname default="[Eric: PVA as a Skill] Dotnet Skill Bot">
+    <label description="[Eric: PVA as a Skill] Dotnet Skill Bot" languagecode="1033" />
+  </displayname>
+  <introducedversion>1.0.0.0</introducedversion>
+  <iscustomizable>1</iscustomizable>
+  <isrequired>0</isrequired>
+  <type>100000000</type>
+</environmentvariabledefinition>

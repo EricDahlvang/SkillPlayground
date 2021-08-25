@@ -1,0 +1,8 @@
+<botcomponent schemaname="new_topic_cca5debdb0384105b7adbb226c044e8c">
+  <componenttype>0</componenttype>
+  <description>Response for when this PVA bot is called as a skill</description>
+  <iscustomizable>1</iscustomizable>
+  <name>PVA</name>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

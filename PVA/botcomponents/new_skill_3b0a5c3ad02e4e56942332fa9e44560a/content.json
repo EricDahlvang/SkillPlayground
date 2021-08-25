@@ -1,0 +1,55 @@
+{
+  "skills": [
+    {
+      "appIdEnvironmentVariableSchemaName": "new_skill_3b0a5c3ad02e4e56942332fa9e44560a_dotnet_appid",
+      "appEndpointEnvironmentVariableSchemaName": "new_skill_3b0a5c3ad02e4e56942332fa9e44560a_dotnet_appendpoint",
+      "actionCount": 0,
+      "manifest": {
+        "$schema": "https://schemas.botframework.com/schemas/skills/v2.1/skill-manifest.json",
+        "$id": "dotnet",
+        "name": "Dotnet Skill Bot",
+        "version": "1.1",
+        "description": "This is a sample skill built using dotnet and is useful for echoing back what was sent.",
+        "publisherName": "Microsoft",
+        "privacyUrl": "https://microsoft.com/privacy",
+        "copyright": "Copyright (c) Microsoft Corporation. All rights reserved.",
+        "license": "",
+        "iconUrl": "https://myskill.contoso.com/icon.png",
+        "tags": {
+          "$id": "2",
+          "$values": [
+            "sample",
+            "dotnet"
+          ]
+        },
+        "endpoints": {
+          "$id": "3",
+          "$values": [
+            {
+              "$id": "4",
+              "name": "dotnet",
+              "protocol": "BotFrameworkV3",
+              "description": "Default endpoint for the skill",
+              "endpointUrl": "https://skillschilddotnet.azurewebsites.net/api/messages",
+              "msAppId": "438d1711-7e3d-4139-aef4-24b88fc7da47"
+            }
+          ]
+        },
+        "activities": {
+          "$id": "5",
+          "message": {
+            "type": "message",
+            "$id": "6",
+            "description": "A message activity containing the utterance that the skill will echo back to the user"
+          }
+        }
+      },
+      "id": "new_skill_3b0a5c3ad02e4e56942332fa9e44560a",
+      "displayName": "Dotnet Skill Bot",
+      "description": "This is a sample skill built using dotnet and is useful for echoing back what was sent.",
+      "createdTime": "2021-08-25T16:49:35.0459558Z",
+      "updatedTime": "2021-08-25T16:49:35.0459558Z"
+    }
+  ],
+  "createdUtc": "0001-01-01T00:00:00Z"
+}

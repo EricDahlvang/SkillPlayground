@@ -1,0 +1,23 @@
+> PVA
+# new_topic_cca5debdb0384105b7adbb226c044e8c
+- PVA
+- pva
+- pva skill
+
+> Var
+@ list l_d9199c859b6246fb8d2ff478ba8fbd53 =
+    - o_e025b92560cd44689949f6c47e51ad52 :
+        - bye
+    - o_1de7f37747df40e3a9d6f62079217b59 :
+        - Skills
+
+> Var1
+@ list l_e5caf00e431648869c330a1283455bca =
+    - o_825734edae974656bddde257a62f7c7b :
+        - java
+    - o_8ededd1e04cd416bb997f055d4d062c7 :
+        - python
+    - o_868b6b372b594ff7b95572bfe16e7d35 :
+        - node
+    - o_972de2c1759b4b7db4dda08b7968c551 :
+        - dotnet

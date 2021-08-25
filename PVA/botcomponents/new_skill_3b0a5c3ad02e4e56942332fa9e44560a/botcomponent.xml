@@ -1,0 +1,8 @@
+<botcomponent schemaname="new_skill_3b0a5c3ad02e4e56942332fa9e44560a">
+  <componenttype>1</componenttype>
+  <description>This is a sample skill built using dotnet and is useful for echoing back what was sent.</description>
+  <iscustomizable>1</iscustomizable>
+  <name>Dotnet Skill Bot</name>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

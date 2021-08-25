@@ -1,0 +1,55 @@
+{
+  "skills": [
+    {
+      "appIdEnvironmentVariableSchemaName": "new_skill_f00df4eada83482698e49c7cdea41e2a_javascript_appid",
+      "appEndpointEnvironmentVariableSchemaName": "new_skill_f00df4eada83482698e49c7cdea41e2a_javascript_appendpoint",
+      "actionCount": 0,
+      "manifest": {
+        "$schema": "https://schemas.botframework.com/schemas/skills/v2.2/skill-manifest.json",
+        "$id": "javascript",
+        "name": "Javascript Skill Bot",
+        "version": "1.1",
+        "description": "This is a sample skill built using javascript and is useful for echoing back what was sent.",
+        "publisherName": "Microsoft",
+        "privacyUrl": "https://microsoft.com/privacy",
+        "copyright": "Copyright (c) Microsoft Corporation. All rights reserved.",
+        "license": "",
+        "iconUrl": "https://myskill.contoso.com/icon.png",
+        "tags": {
+          "$id": "2",
+          "$values": [
+            "sample",
+            "javascript"
+          ]
+        },
+        "endpoints": {
+          "$id": "3",
+          "$values": [
+            {
+              "$id": "4",
+              "name": "javascript",
+              "protocol": "BotFrameworkV3",
+              "description": "Default endpoint for the skill",
+              "endpointUrl": "https://skillschildnode.azurewebsites.net/api/messages",
+              "msAppId": "23aa99a8-1992-49ee-81f6-c349df3b4835"
+            }
+          ]
+        },
+        "activities": {
+          "$id": "5",
+          "message": {
+            "type": "message",
+            "$id": "6",
+            "description": "A message activity containing the utterance that the skill will echo back to the user"
+          }
+        }
+      },
+      "id": "new_skill_f00df4eada83482698e49c7cdea41e2a",
+      "displayName": "Javascript Skill Bot",
+      "description": "This is a sample skill built using javascript and is useful for echoing back what was sent.",
+      "createdTime": "2021-08-25T16:48:35.3677203Z",
+      "updatedTime": "2021-08-25T16:48:35.3677203Z"
+    }
+  ],
+  "createdUtc": "0001-01-01T00:00:00Z"
+}
